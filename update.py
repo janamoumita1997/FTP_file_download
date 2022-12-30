@@ -22,7 +22,7 @@ lines = ['45174','39006','45081']
 # retry = True
 # while (retry):
 #     try:
-ftp = ftplib.FTP("aftp.linksynergy.com", "BosLondi", "Wawayeyelagos101", timeout=100000)
+ftp = ftplib.FTP("server_address", "user_name", "password", timeout=100000)
 x = ftp.set_debuglevel(2)
 print("x ",x)
 # print(ftp.pwd() )
