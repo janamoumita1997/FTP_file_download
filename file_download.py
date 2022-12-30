@@ -8,8 +8,8 @@ x = today.replace('-','')
 
 
 
-ftp = FTP('aftp.linksynergy.com')
-ftp.login("BosLondi","Wawayeyelagos101")
+ftp = FTP('server address')
+ftp.login("user_name","password")
 dirname = "/3184/"
 ftp.cwd(dirname)
 files = ftp.nlst()
